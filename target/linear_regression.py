@@ -96,6 +96,7 @@ for step in range(1, training_steps + 1):
 # In[8]:
 
 
+'''
 import matplotlib.pyplot as plt
 
 
@@ -107,4 +108,4 @@ plt.plot(X, Y, 'ro', label='Original data')
 plt.plot(X, np.array(W * X + b), label='Fitted line')
 plt.legend()
 plt.show()
-
+'''
